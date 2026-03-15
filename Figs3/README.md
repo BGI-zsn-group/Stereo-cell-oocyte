@@ -14,7 +14,7 @@ Figs3/
 
 - `run_figs3_somatic_processing_combined.sh`：**推荐入口**。从 combined YAML 中提取 `modules.figs3_somatic_processing` 这一段（module），再调用 R 脚本运行。
 - `figs3_somatic_processing.R`：主流程脚本（整合 / 聚类 / 两轮清理 / 注释 / 导出）。
-- `configs/figs3_combined.yaml`：配置文件（注意：发布到 GitHub 后需要你把输入 `.rds` 路径改成自己的本地路径）。
+- `configs/figs3_combined.yaml`：配置文件。
 
 ## 依赖环境
 
